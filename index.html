@@ -1,0 +1,292 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Showroom</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link relstylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-container-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    i{
+position: left;
+
+
+
+  
+  </style>
+</head>
+<body  style="background: #000324;
+background: radial-gradient(circle, rgba(0, 3, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Car Showroom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel Section -->
+  <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="c:\Users\azeem\Downloads\262341-3840x2160-desktop-4k-ford-pickup-wallpaper-photo.jpg" class="d-block w-100" alt="Ford Pickup">
+      </div>
+      <div class="carousel-item">
+        <img src="c:\Users\azeem\Downloads\262054-3840x2160-desktop-4k-ford-mustang-background.jpg" class="d-block w-100" alt="Ford Mustang">
+      </div>
+      <div class="carousel-item">
+        <img src="c:\Users\azeem\Downloads\komorebi-photo-imzqKNFGYHo-unsplash - Copy (2) - Copy.jpg" class="d-block w-100" alt="Car Showroom">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="container my-4">
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="c:\Users\azeem\Downloads\images (2).jpg" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="c:\Users\azeem\Downloads\photo-1542362567-b07e54358753.avif" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="c:\Users\azeem\Downloads\images (1).jpg" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+    </div>
+  <!-- Card 4 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1508974239320-0a029497e820?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BvcnRzJTIwY2FyfGVufDB8fDB8fHww" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+ 
+
+
+       <!-- Card 5 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1532581140115-3e355d1ed1de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3BvcnRzJTIwY2FyfGVufDB8fDB8fHww" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+
+            <!-- Card 6 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1628519592419-bf288f08cef5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnRzJTIwY2FyfGVufDB8fDB8fHww" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- Card 7 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1609386464913-4cbfa39de540?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNwb3J0cyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+        <!-- Card 8 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNwb3J0cyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+
+
+        <!-- Card 9 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNwb3J0cyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D" alt="Ford F-150 Raptor">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ford F-150 Raptor</h5>
+            <p class="card-text">
+              <strong>Description:</strong> Ford F-150 Raptor Race Truck off-road racing aur desert rallies ke liye design ki gayi ek powerful pickup truck hai...
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><strong>Features:</strong> 3.5L Twin-Turbo V6 Engine, Off-Road Racing Suspension, Lightweight Baja Body Kit.</small>
+            </p>
+            <a href="#" class="btn btn-primary mt-auto">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+
+  <!-- Featured Section -->
+  <div class="container my-5">
+    <div class="card text-center">
+      <div class="card-header">Featured</div>
+      <div class="card-body bg-dark text-white rounded-bottom">
+        <h5 class="card-title text-white">Drive Your Dreams Home</h5>
+        <p class="card-text">Welcome to your trusted dealership for premium new and pre-owned vehicles.
+            "Welcome to [Showroom Name], your premier destination for top-tier new and 
+            pre-owned vehicles. Whether you're searching for high-performance sports cars,
+             rugged off-road trucks, or reliable daily drivers, we bring you an exceptional selection 
+             designed to fit every lifestyle. Experience seamless buying, competitive pricing, and world-class 
+             customer service all under one roof."
+        </p>
+        <p>Explore our handpicked collection of premium new and pre-owned vehicles. 
+    From high-performance sports cars to rugged off-road trucks, we offer unmatched quality, 
+    transparent pricing, and exceptional service to help you drive home your dream car today.
+  </p></p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <i><img src="c:\Users\azeem\Downloads\icons8-instagram-48.png" alt=""></i>
+      <i><img src="c:\Users\azeem\Downloads\icons8-facebook-48.png" alt=""></i>
+      <i><img src="c:\Users\azeem\Downloads\icons8-twitter-bird-48.png" alt=""></i>
+      <i><img src="c:\Users\azeem\Downloads\icons8-tiktok-48.png" alt=""></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
